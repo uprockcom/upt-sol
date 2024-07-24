@@ -20,6 +20,5 @@ metadata-update:
 	metaboss update uri --account ${TOKEN_MINT} --new-uri=https://raw.githubusercontent.com/uprockcom/upt-sol/main/metadata.json
 
 update-auth:
-	spl-token authorize ${TOKEN_MINT} freeze --disable
 	spl-token authorize ${TOKEN_MINT} mint GRwm4EXMyVwtftQeTft7DZT3HBRxx439PrKq4oM6BwoZ
 
